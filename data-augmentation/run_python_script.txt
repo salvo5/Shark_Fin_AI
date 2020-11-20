@@ -1,0 +1,4 @@
+import os
+
+system("python Folder_list.py")
+

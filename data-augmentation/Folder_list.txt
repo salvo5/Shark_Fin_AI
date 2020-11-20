@@ -1,0 +1,8 @@
+import os
+
+directory = r'/Users/salvo/project_git/FinID/1_code/FinID-project-white-shark-master/data-augmentation'
+for filename in os.listdir(directory):
+    if filename.endswith(".jpg") or filename.endswith(".png"):
+        print(os.path.join(directory, filename))
+    else:
+        continue
