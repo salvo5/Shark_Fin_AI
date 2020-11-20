@@ -2,7 +2,7 @@
 TensorFlow backened, Keras ImageDataGenerator, dataset generation
 
 ## Introduction
-In Shark Fin ID project at Monterey Bay Aquarium, we have archived fin images for 500 individual sharks. However, 60% of these individual sharks archived in our dataset have less than 10 clear fin images. One way to train a robust shark fin recognition deep learning system and to increase the generalizability of the model is to expand the fin dataset by data augmentation technique. 
+One way to train a robust shark fin recognition deep learning system and to increase the generalizability of the model is to expand the fin dataset by data augmentation technique. 
 
 In this technique, we obtain augmented data from the original fin images by applying simple geometric transforms, such as random translations, rotations, changes in scale, shearing, horizontal and vertical flips. Applying transformations to an input image will change its appearance slightly, but it does not change the class label — thereby making data augmentation a very natural and easy method to apply for computer vision tasks.
 
@@ -43,10 +43,10 @@ In the main script `generate_images.py`, starting `L31` where you can adjust the
 - [Keras 2.2](https://keras.io/)
 
 ## Contact
-zacycliu@stanford.edu
+zacqoo@gmail.com
 
 ## Last updated
-Feb 11, 2020
+NOV 20, 2020
 
 
 
